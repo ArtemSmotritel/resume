@@ -1,0 +1,16 @@
+body {
+    font: small-caps bold 20px/1.5 Arial;
+    background-repeat: round;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 60%;
+}
