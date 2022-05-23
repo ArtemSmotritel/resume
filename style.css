@@ -1,17 +1,48 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font: 500 16px/1.5 Arial;
+    font: 600 16px/1.5 Arial;
     line-height: 1.5;
     background: linear-gradient(to left, #69779b, black 70%);
     background-repeat: round;
     color: #a0c5c9;
-    padding: 10px;
+    /* padding: 20px 100px; */
     margin: 0;
     height: 100%;
 }
 
+header {
+    margin-top: -50px;
+    background: linear-gradient(to left, #69779b, black 70%);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    border-bottom: 5px outset #f0ece2;
+}
+
+section {
+    padding-bottom: 150px;
+
+}
+
+main,
+footer {
+    margin: 20px 100px 0 100px;
+    position: relative;
+    top: 250px;
+}
+
+footer {
+    margin-bottom: 20px;
+    padding-bottom: 50px;
+}
+
 h1,
 h2,
-h3 {
+h3,
+h4 {
     font: bold 16px/1.2 'Courier New';
     line-height: 1.2;
 }
@@ -29,75 +60,85 @@ h3 {
     font-size: 3em;
 }
 
+h4 {
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
 p,
 li,
 table {
     font-size: 2em;
 }
 
-span {
-    font-size: 1.5em;
-}
-
-a {
-    color: #a0c5c9;
-    font-size: 1.4em;
-    text-decoration: underline dotted;    
-}
-
-table, td, th {
+table,
+td,
+th {
     border: 1px solid;
 }
 
+thead {
+    font-size: 1.2em;
+}
+
 table {
-    width: 70%;
-    border-collapse: collapse;    
+    width: 100%;
+    border-collapse: collapse;
     text-align: center;
     margin: 5px;
 }
 
 img {
-    width: 20%;
+    margin: 1%;
+    width: 30%;
 }
 
-#myself {
-    height: 200px;
-    width: 200px;
-    float: left;
-}
-
-header {
-    margin-top: -10px;
-    background: linear-gradient(to left, #69779b, black 70%);
-    position: fixed;
-    z-index: 2;
-    width: 99%;
-    border-bottom: 5px outset #f0ece2;
-}
-
-section {
-    margin-bottom: 150px;
-}
-
-main,
-footer {
-    position: relative;
-    top: 250px;
+a {
+    color: #a0c5c9;
+    font-size: 1.4em;
+    text-decoration: none;
 }
 
 .navigation {
     display: inline;
     margin: 0 50px 0 0;
+    text-decoration: underline dotted;
+}
+
+.skill {
+    margin-left: 2%;
+    width: 30%;
+    float: left;
+    height: fit-content;
+}
+
+.film_name {
+    position: relative;
+}
+
+.film_year {
+    position: absolute;
+    right: 5%;
 }
 
 #about_me,
-#skills,
+#hard,
 #photos,
-#movies {
+#movies,
+#soft {
     scroll-margin-top: 250px;
-    border-bottom: 5px solid #f0ece2; 
+    border-bottom: 5px solid #f0ece2;
 }
 
 #about_me {
-    height: 310px;
+    height: 475px;
+}
+
+#soft {
+    height: 525px;
+}
+
+#myself_pic {
+    width: 20%;
+    float: left;
 }
