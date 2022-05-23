@@ -12,17 +12,26 @@
 <body>
     <header>
         <h1>Welcome to my resume page!</h1>
+        <nav>
+            <ul>
+                <li class="navigation"><a href="#about_me">About me</a></li>
+                <li class="navigation"><a href="#skills">My skills</a></li>
+                <li class="navigation"><a href="#photos">My photos</a></li>
+                <li class="navigation"><a href="#movies">My favorite movies</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section>
+        <section id="about_me">
             <h3>About me</h3>
+            <img src="./imgs/me.jpg" alt="a picture of myself" id="myself">
             <p>My name is Artem Smotrytel. I live in Cherkasy, I am 18 years old. <br>
                 I'm student of the CHNU. I'm fond of cinema. I'm trying to stay fit. <br>
                 Currently i'm doing my best at InterLink internship.</p>
         </section>
-        <!--plain text-->
 
-        <section>
+        <section id="skills">
             <h3>My skills</h3>
             <table>
                 <thead>
@@ -30,46 +39,44 @@
                         Skill
                     </th>
                     <th>
-                        Level
+                        Years of practice
                     </th>
                 </thead>
                 <tbody>
                     <tr>
                         <td>html</td>
-                        <td>3/10</td>
+                        <td>5 years</td>
                     </tr>
                     <tr>
                         <td>css</td>
-                        <td>3/10</td>
+                        <td>5 years</td>
                     </tr>
                     <tr>
                         <td>js</td>
-                        <td>5/10</td>
-                    </tr>
-                    <tr>
-                        <td>c#</td>
-                        <td>4/10</td>
+                        <td>5 years</td>
                     </tr>
                     <tr>
                         <td>adobe premier pro 2019</td>
-                        <td>3/10</td>
+                        <td>3 years</td>
                     </tr>
+                    <tr>
+                        <td>c#</td>
+                        <td>1 years</td>
+                    </tr>                    
                 </tbody>
             </table>
         </section>
-        <!--table-->
 
-        <section>
+        <section id="photos">
             <h3>My photos</h3>
             <div>
-                <img src="./house.jpg" alt="a house">
-                <img src="./trees.jpg" alt="trees">
-                <img src="./flower.jpg" alt="a flower">
+                <img src="./imgs/house.jpg" alt="a house">
+                <img src="./imgs/trees.jpg" alt="trees">
+                <img src="./imgs/flower.jpg" alt="a flower">
             </div>
         </section>
-        <!--photos-->
 
-        <section>
+        <section id="movies">
             <h3>My favorite movies</h3>
             <ul>
                 <li>The hitcher, 1986</li>
@@ -80,11 +87,10 @@
                 <li>Bloody hell, 2021</li>
             </ul>
         </section>
-        <!--list-->
     </main>
+
     <footer>
-        <h2>Where can you find me</h2>
-        <!--links-->
+        <h2>Where you can find me</h2>
         <div>
             <span><a href="https://instagram.com/top_secret6978?utm_medium=copy_link">Instagram</a></span>
             <span>|</span>
