@@ -8,7 +8,6 @@ body {
     background: linear-gradient(to left, #69779b, black 70%);
     background-repeat: round;
     color: #a0c5c9;
-    /* padding: 20px 100px; */
     margin: 0;
     height: 100%;
 }
@@ -22,9 +21,12 @@ header {
     border-bottom: 5px outset #f0ece2;
 }
 
+nav {
+    margin-left: 59px;
+}
+
 section {
     padding-bottom: 150px;
-
 }
 
 main,
@@ -49,7 +51,7 @@ h4 {
 
 h1 {
     font-size: 5em;
-    margin-top: 0;
+    margin: 50px 100px 0 100px;
 }
 
 h2 {
