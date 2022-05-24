@@ -1,0 +1,45 @@
+body {
+    font: 600 16px/1.5 Arial;
+}
+
+a {
+    font-size: 1.4em;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font: bold 16px/1.2 'Courier New';
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 3.5em;
+}
+
+h3 {
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 2.5em;
+}
+
+ul {
+    padding: 0 10px;
+}
+
+p,
+li,
+table {
+    font-size: 2em;
+}
+
+thead {
+    font-size: 1.2em;
+}
