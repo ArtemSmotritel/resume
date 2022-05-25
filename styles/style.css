@@ -54,7 +54,8 @@ h4 {
     margin: 50px auto 20px auto;
 }
 
-p {
+p,
+span {
     margin: auto 30px; 
 }
 
@@ -72,7 +73,16 @@ th {
 }
 
 ul {
-    padding: 0 10px;
+    padding: 0 10px;    
+}
+
+#movies ul {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2%;
+    list-style-type: none;
 }
 
 img {
