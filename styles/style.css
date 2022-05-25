@@ -7,13 +7,13 @@ body {
     background-repeat: round;
     color: #a0c5c9;
     margin: 0;
-    padding: 20px;    
+    padding: 20px;
 }
 
 aside {
     position: fixed;
     width: 300px;
-    margin-top: 300px;
+    margin-top: 10vh;
 }
 
 .content {
@@ -23,14 +23,12 @@ aside {
 }
 
 header {
-    margin-top: -50px;
-    /* background: linear-gradient(to left, #69779b, black 70%); */
-    border-bottom: 5px outset #f0ece2;    
+    margin-top: -50px;    
+    border-bottom: 5px solid #f0ece2;
 }
 
 footer {
-    margin-bottom: 20px;
-    padding-bottom: 50px;
+    margin-bottom: 20px;    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,14 +42,20 @@ section {
     padding: 80px 0;
 }
 
-h1 {
-    margin: 50px 0 50px 200px;
-}
-
-p,
+h1,
+h2,
 h3,
 h4 {
-    margin: auto 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    margin: 50px auto 20px auto;
+}
+
+p {
+    margin: auto 30px; 
 }
 
 table {
@@ -74,6 +78,10 @@ ul {
 img {
     margin: 1%;
     width: 30%;
+}
+
+#photos img {
+    width: 26%;
 }
 
 a {
